@@ -1,0 +1,16 @@
+.increment input{
+    width: 50px;
+    text-align: center;
+    width: 40px;
+    
+}
+.increment{
+    margin-bottom: 40px;
+    scale: 1.5;
+}
+.youHave ,.fruitName, .fruitPrice{
+    font-size:28px
+}
+.fcard{
+    margin-bottom: 30px;
+}

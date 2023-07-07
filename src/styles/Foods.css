@@ -1,0 +1,29 @@
+.d-flex{
+    margin: 0px, auto;
+    justify-content: space-around;
+}
+.food{
+
+    overflow-x: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fruit:hover{
+    background-color: blanchedalmond;
+}
+.flour{
+    background-color: rgb(241, 241, 241);
+}
+.card-name{
+    font-size: 50px;
+    color: blue;
+    padding: auto, 0px;
+    font-weight: 500;
+}
+#soon{
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+}
