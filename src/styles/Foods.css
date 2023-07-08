@@ -1,14 +1,25 @@
 .d-flex{
-    margin: 0px, auto;
+    
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .food{
-
+    padding: auto, 40px !important;
     overflow-x: hidden;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+@media only screen and (max-width: 700px) {
+    .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .food{
+        margin-bottom: 50px;
+    }
+
 }
 .fruit:hover{
     background-color: blanchedalmond;
@@ -19,8 +30,10 @@
 .card-name{
     font-size: 50px;
     color: blue;
-    padding: auto, 0px;
+    padding: auto, 40px !important;
+    word-wrap:break-word;
     font-weight: 500;
+
 }
 #soon{
     color: red;

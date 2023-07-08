@@ -23,7 +23,7 @@ class Card extends Component {
         const decrease =() =>{
             if(this.state.youHave>0){
                 this.setState({youHave: this.state.youHave - 1})
-                this.setState({totalAmount: (this.state.youHave+1)*this.props.price})
+                this.setState({totalAmount: (this.state.youHave-1)*this.props.price})
             }
         }
         return (
